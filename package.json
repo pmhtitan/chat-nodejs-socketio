@@ -1,0 +1,19 @@
+{
+  "name": "chat-nodejs-socketio",
+  "version": "1.0.0",
+  "description": "Proyecto de Chat con NodeJS y Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pablo Moras Hernando",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
